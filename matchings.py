@@ -7,7 +7,7 @@ def comb(n,m):
     return factorial(n) // factorial(n-m)
 sequence = []
 
-with open("rosalind_mmch (6).txt", 'r') as handle:
+with open("rosalind_mmch.txt", 'r') as handle:
     for record in SeqIO.parse(handle, 'fasta'):
         sequence.append(str(record.seq))
 
