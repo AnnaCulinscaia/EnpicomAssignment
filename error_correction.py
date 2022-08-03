@@ -1,6 +1,7 @@
 from Bio import SeqIO
 from Bio.Seq import Seq
 
+# pattern for getting a reverse complement
 complement = {"A": "T", "T": "A", "C": "G", "G": "C"}
 
 
@@ -13,6 +14,7 @@ if __name__ == "__main__":
 
     reads = []
     with open("rosalind_corr.txt", 'r') as handle:
+        #input of reads
         for record in SeqIO.parse(handle, 'fasta'):
             reads.append(str(record.seq))
 
