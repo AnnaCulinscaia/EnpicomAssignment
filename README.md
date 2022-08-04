@@ -2,7 +2,7 @@ Hi!💻
 
 #### **1. Error Correction**
 * If we create a list of all reads including their reverse complements, incorrect reads and their reverse complements will appear in this list just once. Knowing that, we can determine correct and incorrect reads.
-* Afterwards we correct the errors in incorrect reads by finding a correct read using the Hamming distance adn just comparing incorrect reads with correct ones (equal to 1)
+* Afterwards we correct the errors in incorrect reads by finding a correct read using the Hamming distance and just comparing incorrect reads with correct ones (equal to 1)
 
 
 #### **2. Maximum Matchings**
