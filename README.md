@@ -1,4 +1,5 @@
 Hi!💻
+This is a test assignment for techhical assessment in the interview process for an internhip
 
 #### **1. Error Correction**
 * If we create a list of all reads including their reverse complements, incorrect reads and their reverse complements will appear in this list just once. Knowing that, we can determine correct and incorrect reads.
